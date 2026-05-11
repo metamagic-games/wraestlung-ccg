@@ -1,13 +1,13 @@
 {
-  "name": "artifice-ccg",
+  "name": "wraestlung-ccg",
   "version": "1.1.1",
-  "description": "Artifice CCG Game Cards",
+  "description": "Wraestlung CCG game cards",
   "main": "index.js",
   "scripts": {
     "format": "mcclowes-scripts format",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node --harmony scripts/createCards",
-    "watch": "node --harmony scripts/createCards"
+    "build": "node scripts/createCards",
+    "watch": "node scripts/createCards"
   },
   "babel": {
     "presets": [
@@ -19,29 +19,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hammerheim-game/hammerheim-rules.git"
+    "url": "git+https://github.com/metamagic-games/wraestlung-ccg.git"
   },
   "keywords": [
-    "hammerheim",
-    "rules",
-    "mordheim",
-    "warhammer",
+    "wraestlung",
+    "ccg",
     "tabletop",
-    "game"
+    "game",
+    "cards"
   ],
   "author": "Max Clayton Clowes <maxcc@me.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hammerheim-game/hammerheim-rules/issues"
+    "url": "https://github.com/metamagic-games/wraestlung-ccg/issues"
   },
-  "homepage": "https://github.com/hammerheim-game/hammerheim-rules#readme",
+  "homepage": "https://github.com/metamagic-games/wraestlung-ccg#readme",
   "dependencies": {
-    "ccg-card-generator": "^1.1.1",
-    "html-pdf-chrome": "^0.5.0",
-    "marked": "^0.4.0",
-    "path": "^0.12.7"
+    "ccg-card-generator": "^1.4.1"
   },
   "devDependencies": {
-    "mcclowes-scripts": "^0.3.6"
+    "mcclowes-scripts": "^0.11.1"
   }
 }
