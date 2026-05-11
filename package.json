@@ -4,18 +4,9 @@
   "description": "Wraestlung CCG game cards",
   "main": "index.js",
   "scripts": {
-    "format": "mcclowes-scripts format",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node scripts/createCards",
     "watch": "node scripts/createCards"
-  },
-  "babel": {
-    "presets": [
-      "mcclowes"
-    ]
-  },
-  "eslintConfig": {
-    "extends": "mcclowes"
   },
   "repository": {
     "type": "git",
@@ -35,9 +26,6 @@
   },
   "homepage": "https://github.com/metamagic-games/wraestlung-ccg#readme",
   "dependencies": {
-    "ccg-card-generator": "^1.4.1"
-  },
-  "devDependencies": {
-    "mcclowes-scripts": "^0.11.1"
+    "ccg-card-generator": "^2.3.5"
   }
 }
